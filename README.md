@@ -1,16 +1,14 @@
 # python-getting-started
 
-A barebones Python app, which can easily be deployed to Heroku.
-
-This application support the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+A barebones Scipy+Python app, which can easily be deployed to Heroku.
 
 ## Running Locally
 
 Make sure you have Python [installed properly](http://install.python-guide.org).  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
-$ git clone git@github.com:heroku/python-getting-started.git
-$ cd python-getting-started
+$ git clone git@github.com:brook-seaton/scipy-getting-started.git
+$ cd scipy-getting-started
 $ pip install -r requirements.txt
 $ python manage.py syncdb
 $ foreman start web
